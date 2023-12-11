@@ -1,6 +1,7 @@
 //関数の定義
 const constantName = (argumentName) => {
-  console.log(argumentName * argumentName);
+  const total = argumentName * argumentName;
+  console.log(total);
 }
 
 //関数の呼び出し
