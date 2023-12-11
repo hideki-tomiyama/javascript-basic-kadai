@@ -1,8 +1,7 @@
-//関数の定義
+//関数の定義(引数を受けて、2倍の計算後、戻り値を返す)
 const constantName = (argumentName) => {
-  const total = argumentName * argumentName;
-  console.log(total);
+  return argumentName * argumentName;
 }
 
-//関数の呼び出し
-constantName(10);
+//関数の戻り値を出力(引数の設定)
+console.log(constantName(10));
